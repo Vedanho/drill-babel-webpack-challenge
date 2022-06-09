@@ -1,0 +1,57 @@
+body {
+  background-color: rgb(83, 83, 238);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#input_conteiner {
+  display: flex;
+  justify-content: center;
+  width: 50%;
+  border-radius: 10px;
+  height: 30px;
+}
+
+.input_1 {
+  border-radius: 10px;
+  width: 70%;
+  border-color: rgb(111, 56, 161);
+  padding: 20px 20px 20px 20px
+}
+.button_add {
+  border-radius: 10px;
+  width: 15%;
+  border-color: rgb(111, 56, 161);
+  font-size: 1em;
+  height: 30px;
+  padding: 20px 20px 20px 20px;
+  margin-left: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.list {
+  background-color: inherit;
+  border-radius: 10px;
+}
+.list_item {
+  display: flex;
+  margin-top: 1%;
+  border: 1px solid;
+  text-align: left;
+  justify-content: space-between;
+  font-size: 25px;
+  border-radius: 10px;
+  padding: 10px 10px 10px 10px;
+}
+#button_delete {
+  background-color: rgb(141, 40, 40);
+  border: 1px solid;
+  border-radius: 10px;
+  color: black;
+  width:15%
+}
